@@ -1,0 +1,287 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 DEC 2012 22:31
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**master.tex
+(./master.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count88
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count89
+\lst@currlwidth=\dimen103
+\lst@column=\count90
+\lst@pos=\count91
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count92
+\lst@lineno=\count93
+\lst@maxwidth=\dimen106
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
+\lst@framebox=\box27
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(./master.aux (./ch1.aux) (./ch2.aux) (./ch3.aux))
+\openout1 = `master.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+\c@lstlisting=\count96
+\openout2 = `ch1.aux'.
+
+ (./ch1.tex
+Chapter 1.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+)
+(./code/ex1.cpp
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 1.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
+
+Overfull \hbox (40.77417pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (34.2041pt too wide) in paragraph at lines 18--20
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (47.34424pt too wide) in paragraph at lines 20--21
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[1
+
+
+
+
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+(./code/ex1.R
+LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3])
+[4]
+\openout2 = `ch2.aux'.
+
+ (./ch2.tex
+Chapter 2.
+(./code/ex2.cpp [5
+
+
+
+]
+Overfull \hbox (40.77417pt too wide) in paragraph at lines 51--52
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (126.18506pt too wide) in paragraph at lines 52--54
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (80.19458pt too wide) in paragraph at lines 54--55
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (126.18506pt too wide) in paragraph at lines 55--57
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (132.75513pt too wide) in paragraph at lines 57--59
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (60.0185pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 6 \OT1/cmr/m/sl/10.95 CHAPTER 2.  COMPUTING THE SUM AND MEAN
+ OF VECTORS IN C++ AND R
+ []
+
+[6]) (./code/ex2.R
+Overfull \hbox (21.06396pt too wide) in paragraph at lines 1--2
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./code/ex2_rcpp.R
+Overfull \hbox (1.35376pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[7]
+Overfull \hbox (139.3252pt too wide) in paragraph at lines 21--22
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (139.3252pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (34.2041pt too wide) in paragraph at lines 45--46
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (60.0185pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 8 \OT1/cmr/m/sl/10.95 CHAPTER 2.  COMPUTING THE SUM AND MEAN
+ OF VECTORS IN C++ AND R
+ []
+
+[8]
+Overfull \hbox (53.9143pt too wide) in paragraph at lines 58--59
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (73.62451pt too wide) in paragraph at lines 59--60
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (7.92383pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)) [9]
+\openout2 = `ch3.aux'.
+
+ (./ch3.tex
+Overfull \hbox (65.4935pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 10 \OT1/cmr/m/sl/10.95 CHAPTER 2.  COMPUTING THE SUM AND MEA
+N OF VECTORS IN C++ AND R
+ []
+
+[10
+
+
+
+]
+Chapter 3.
+(./code/ex3.cpp
+Overfull \hbox (139.3252pt too wide) in paragraph at lines 10--11
+[][][][][][][][][][][][][][][] 
+ []
+
+[11]) (./code/ex3.R [12])) [13] (./master.aux (./ch1.aux) (./ch2.aux)
+(./ch3.aux)) ) 
+Here is how much of TeX's memory you used:
+ 2630 strings out of 493488
+ 34280 string characters out of 3141326
+ 141997 words of memory out of 3000000
+ 5928 multiletter control sequences out of 15000+200000
+ 9430 words of font info for 33 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 37i,5n,60p,233b,1574s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmib10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+l10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb>
+Output written on master.pdf (13 pages, 130419 bytes).
+PDF statistics:
+ 83 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

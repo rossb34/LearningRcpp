@@ -1,0 +1,40 @@
+\chapter{Computing the sum and mean of vectors in C++ and R}
+
+\section{C++ code}
+The C++ example icontains 3 different functions to compute the sum of a vector. One thing to notice is the mean function calls the sum2 function.
+
+\lstset{language=C++, showspaces=false, showstringspaces=false}
+\lstinputlisting{code/ex2.cpp}
+
+\section{R code}
+Equivalent code in R. Notice how R already has built in functions that are used to compute the sum and mean of a vector.
+
+\lstset{language=R, showspaces=false, showstringspaces=false}
+\lstinputlisting{code/ex2.R}
+
+\section{Rcpp code}
+Use the Rcpp and inline packages to write functions to compute the sum and mean of vectors.
+
+\lstset{language=R, showspaces=false, showstringspaces=false}
+\lstinputlisting{code/ex2_rcpp.R}
+
+\section{Output}
+
+Output of ex2.cpp
+\begin{verbatim}
+$ make ex2
+$ ./ex2
+1 2 3 4 5 6 7 8 9 10 
+sum1 function using loop
+The sum of the vector is 55
+sum2 function using accumulate
+The sum of the vector is 55
+the mean of the vector is 5.5
+\end{verbatim}
+Output of ex2.R
+\begin{verbatim}
+$ Rscript ex2.R
+1 2 3 4 5 6 7 8 9 10 
+The sum of the vector is:  55 
+The mean of the vector is:  5.5 
+\end{verbatim}

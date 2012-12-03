@@ -1,0 +1,32 @@
+\chapter{Add two vectors in C++ and R}
+
+\section{C++ code}
+The C++ example in which I write a function to add two vectors together uses a traditional loop to do element by element addition
+
+\lstset{language=C++, showspaces=false, showstringspaces=false}
+\lstinputlisting{code/ex3.cpp}
+
+\section{R code}
+Equivalent code in R. Notice how there is no need to define a function to add two vectors. Simply use the + operator.
+
+\lstset{language=R, showspaces=false, showstringspaces=false}
+\lstinputlisting{code/ex3.R}
+
+\section{Rcpp code}
+TODO write ex3\_rcpp.R to add two vectors together
+%\lstset{language=R, showspaces=false, showstringspaces=false}
+%\lstinputlisting{code/ex2_rcpp.R}
+
+\section{Output}
+
+Output of ex3.cpp
+\begin{verbatim}
+$ make ex3
+$ ./ex3
+21 23 25 27 29 31 33 35 37 39
+\end{verbatim}
+Output of ex3.R
+\begin{verbatim}
+$ Rscript ex3.R
+21 23 25 27 29 31 33 35 37 39
+\end{verbatim}
