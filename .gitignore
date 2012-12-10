@@ -1,0 +1,10 @@
+# Compiled Source #
+###################
+*.o
+*.so
+
+# LaTeX #
+#########
+*.log
+*.aux
+*.gz
