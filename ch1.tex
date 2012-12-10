@@ -1,32 +1,26 @@
-\chapter{Basic Vector Operations in C++ and R}
+\chapter{Basic Arithmetic Operations on Vectors in C++ and R}
+The first thing to notice is that with functions in C++, the return type and argument type have to be declared in the function. Also note functions can have the same name with different arguments. In R, if x and y are vectors we can add the vectors with x + y. We can't do this in C++, at least not without overloading the + operator. Rcpp sugar makes this possible with a little bit of what seems like "magic". Rcpp sugar will be covered later.
 
-\section{C++ code}
-Start with basic examples to gain an understanding of how to use vectors in C++. This example will demonstrate how to initialize a vector, assign values, add elements, remove elements, and print the vector.
-\lstset{language=C++, showspaces=false, showstringspaces=false}
-\lstinputlisting{code/ex1.cpp}
+\section{Addition}
+Simple program to add two vectors and add a scalar to a vector
 
-\section{R code}
-Equivalent code in R
-\lstset{language=R, showspaces=false, showstringspaces=false}
-\lstinputlisting{code/ex1.R}
+\lstset{language=C++}
+\lstinputlisting{code/add_vec.cpp}
 
-\section{Output}
-Output of ex1.cpp
-\begin{verbatim}
-$ make ex1
-$ ./ex1
-number of elements in vec: 5
-0 0 0 0 0 
-6 2 5 1 8 
-6 2 5 1 8 5 7 3 
-6 2 5 1 8 5 7 
-\end{verbatim}
-Output of ex1.R
-\begin{verbatim}
-$ Rscript ex1.R
-number of elements in vec: 5 
-0 0 0 0 0 
-6 2 5 1 8 
-6 2 5 1 8 5 7 3 
-6 2 5 1 8 5 7 
-\end{verbatim}
+\section{Subtraction}
+Simple program to subtract two vectors and subtract a vector by a scalar
+
+\lstset{language=C++}
+\lstinputlisting{code/sub_vec.cpp}
+
+\section{Multiplication}
+Simple program to multiply two vectors and multiply a vector by a scalar
+
+\lstset{language=C++}
+\lstinputlisting{code/mult_vec.cpp}
+
+\section{Division}
+Simple program to divide two vectors and divide a vector by a scalar
+
+\lstset{language=C++}
+\lstinputlisting{code/div_vec.cpp}

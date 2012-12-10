@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 DEC 2012 22:31
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  10 DEC 2012 08:26
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **master.tex
 (./master.tex
@@ -18,8 +19,8 @@ lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian,
 welsh, loaded.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/bk11.clo
-File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -63,25 +64,86 @@ File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(./master.aux (./ch1.aux) (./ch2.aux) (./ch3.aux))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count96
+\Gm@cntv=\count97
+\c@Gm@tempcnt=\count98
+\Gm@bindingoffset=\dimen107
+\Gm@wd@mp=\dimen108
+\Gm@odd@mp=\dimen109
+\Gm@even@mp=\dimen110
+\Gm@layoutwidth=\dimen111
+\Gm@layoutheight=\dimen112
+\Gm@layouthoffset=\dimen113
+\Gm@layoutvoffset=\dimen114
+\Gm@dimlist=\toks16
+)
+No file master.aux.
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-\c@lstlisting=\count96
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+\c@lstlisting=\count99
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-30.06749pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 \openout2 = `ch1.aux'.
 
- (./ch1.tex
+(./ch1.tex
 Chapter 1.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
@@ -92,196 +154,79 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 )
-(./code/ex1.cpp
+(./code/add_vec.cpp
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 1.
- (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omlcmr.fd
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
-
-Overfull \hbox (40.77417pt too wide) in paragraph at lines 5--6
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (34.2041pt too wide) in paragraph at lines 18--20
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (47.34424pt too wide) in paragraph at lines 20--21
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[1
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+ [1
 
 
 
 
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2004/09/05 1.3 listings language file
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2004/09/05 1.3 listings language file
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2004/09/05 1.3 listings language file
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-(./code/ex1.R
-LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3])
-[4]
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./cod
+e/sub_vec.cpp
+[2]) (./code/mult_vec.cpp [3]) (./code/div_vec.cpp [4])) [5]
 \openout2 = `ch2.aux'.
 
  (./ch2.tex
-Chapter 2.
-(./code/ex2.cpp [5
+[6
 
 
 
 ]
-Overfull \hbox (40.77417pt too wide) in paragraph at lines 51--52
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (126.18506pt too wide) in paragraph at lines 52--54
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (80.19458pt too wide) in paragraph at lines 54--55
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (126.18506pt too wide) in paragraph at lines 55--57
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (132.75513pt too wide) in paragraph at lines 57--59
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (60.0185pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10.95 6 \OT1/cmr/m/sl/10.95 CHAPTER 2.  COMPUTING THE SUM AND MEAN
- OF VECTORS IN C++ AND R
- []
-
-[6]) (./code/ex2.R
-Overfull \hbox (21.06396pt too wide) in paragraph at lines 1--2
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) (./code/ex2_rcpp.R
-Overfull \hbox (1.35376pt too wide) in paragraph at lines 11--12
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[7]
-Overfull \hbox (139.3252pt too wide) in paragraph at lines 21--22
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (139.3252pt too wide) in paragraph at lines 37--38
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (34.2041pt too wide) in paragraph at lines 45--46
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (60.0185pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10.95 8 \OT1/cmr/m/sl/10.95 CHAPTER 2.  COMPUTING THE SUM AND MEAN
- OF VECTORS IN C++ AND R
- []
-
-[8]
-Overfull \hbox (53.9143pt too wide) in paragraph at lines 58--59
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (73.62451pt too wide) in paragraph at lines 59--60
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (7.92383pt too wide) in paragraph at lines 60--61
-[][][][][][][][][][][][][][][][][] 
- []
-
-)) [9]
+Chapter 2.
+(./code/vec_sum.cpp [7]) (./code/vec_cumsum.cpp [8]) (./code/vec_mean.cpp))
+[9]
 \openout2 = `ch3.aux'.
 
- (./ch3.tex
-Overfull \hbox (65.4935pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10.95 10 \OT1/cmr/m/sl/10.95 CHAPTER 2.  COMPUTING THE SUM AND MEA
-N OF VECTORS IN C++ AND R
- []
-
-[10
+ (./ch3.tex [10
 
 
 
 ]
 Chapter 3.
-(./code/ex3.cpp
-Overfull \hbox (139.3252pt too wide) in paragraph at lines 10--11
-[][][][][][][][][][][][][][][] 
- []
+(./code/vec_sqrt.cpp) [11] (./code/vec_squared.cpp) [12] (./code/ssq.cpp)
+(./code/vec_pow.cpp [13]) (./code/vec_myfun.cpp [14])) [15]
+\openout2 = `ch4.aux'.
 
-[11]) (./code/ex3.R [12])) [13] (./master.aux (./ch1.aux) (./ch2.aux)
-(./ch3.aux)) ) 
+ (./ch4.tex [16
+
+
+
+]
+Chapter 4.
+) [17] (./master.aux (./ch1.aux) (./ch2.aux) (./ch3.aux) (./ch4.aux)) ) 
 Here is how much of TeX's memory you used:
- 2630 strings out of 493488
- 34280 string characters out of 3141326
- 141997 words of memory out of 3000000
- 5928 multiletter control sequences out of 15000+200000
- 9430 words of font info for 33 fonts, out of 3000000 for 9000
+ 2324 strings out of 493488
+ 32775 string characters out of 3141326
+ 134857 words of memory out of 3000000
+ 5609 multiletter control sequences out of 15000+200000
+ 6165 words of font info for 22 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,5n,60p,233b,1574s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmib10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-l10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
-.pfb>
-Output written on master.pdf (13 pages, 130419 bytes).
+ 36i,5n,60p,472b,1529s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on master.pdf (17 pages, 116187 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

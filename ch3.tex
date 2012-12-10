@@ -1,32 +1,31 @@
-\chapter{Add two vectors in C++ and R}
+\chapter{Applying Functions to Vectors in C++ and R}
 
-\section{C++ code}
-The C++ example in which I write a function to add two vectors together uses a traditional loop to do element by element addition
+\section{Square Root}
+Compute the square root of each element in the vector
 
-\lstset{language=C++, showspaces=false, showstringspaces=false}
-\lstinputlisting{code/ex3.cpp}
+\lstset{language=C++}
+\lstinputlisting{code/vec_sqrt.cpp}
 
-\section{R code}
-Equivalent code in R. Notice how there is no need to define a function to add two vectors. Simply use the + operator.
+\section{Square}
+The vec\_squared function computes the square each element in the vector using a for loop. The vec\_squared1 function computes the square each element in the vector using std::multiplies by multiplying the vector by itself.
 
-\lstset{language=R, showspaces=false, showstringspaces=false}
-\lstinputlisting{code/ex3.R}
+\lstset{language=C++}
+\lstinputlisting{code/vec_squared.cpp}
 
-\section{Rcpp code}
-TODO write ex3\_rcpp.R to add two vectors together
-%\lstset{language=R, showspaces=false, showstringspaces=false}
-%\lstinputlisting{code/ex2_rcpp.R}
+\section{Sum of Squares}
+Compute the sum of squares using std::inner\_product
 
-\section{Output}
+\lstset{language=C++}
+\lstinputlisting{code/ssq.cpp}
 
-Output of ex3.cpp
-\begin{verbatim}
-$ make ex3
-$ ./ex3
-21 23 25 27 29 31 33 35 37 39
-\end{verbatim}
-Output of ex3.R
-\begin{verbatim}
-$ Rscript ex3.R
-21 23 25 27 29 31 33 35 37 39
-\end{verbatim}
+\section{Power}
+Compute the "n" power of each element in the vector.
+
+\lstset{language=C++}
+\lstinputlisting{code/vec_pow.cpp}
+
+\section{User Defined Function}
+Apply the user defined function to each element in the vector. Here I define a simple function to add 3 to a number.
+
+\lstset{language=C++}
+\lstinputlisting{code/vec_myfun.cpp}
