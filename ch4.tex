@@ -1,28 +1,34 @@
 \chapter{Vector Slicing and Dicing in C++ and R}
-Maybe come up with a better, more technical, term for the title
+Maybe come up with a better, more technical, term for the title.
 
 \section{Vector Sorting}
-Sort a vector in ascending order
+Sort a vector in ascending order and sort a vector in descending order.
 
+lstset{language=C++}
+\lstinputlisting{code/sort.cpp}
 
-sort a vector in descending order
-
-\section{Minimums and Maximums}
-Find the minimum value of the vector
-
-
-Find the maximum value of the vector
-
-
-TODO: runMin and runMax
+\lstset{language=R}
+\lstinputlisting{code/sort.R}
 
 \section{Counting}
-Count the elements of the vector
+Count the elements of the vector. This is very simple with the v.size() member function.
 
 
-Count the elements of a vector meeting a specified criteria
+Count the elements of a vector meeting a specified criteria. I don't define any functions here, just demonstrating the different uses for the count\_if function.
+
+lstset{language=C++}
+\lstinputlisting{code/countif.cpp}
+
+\lstset{language=R}
+\lstinputlisting{code/countif.R}
 
 \section{Slicing}
 Given a vector, return a new vector of elements meeting a specified criteria
 
+TODO
+
+
 Sum the elements of a vector meeting a specified criteria
+
+
+TODO

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  10 DEC 2012 08:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  17 DEC 2012 06:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -154,7 +154,7 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 )
-(./code/add_vec.cpp
+(./code/addition.cpp
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 1.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omlcmr.fd
@@ -162,42 +162,63 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
  [1
 
 
 
 
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./cod
-e/sub_vec.cpp
-[2]) (./code/mult_vec.cpp [3]) (./code/div_vec.cpp [4])) [5]
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
+)
+(./code/addition.R
+LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <10> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+) (./code/subtraction.cpp
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 6.
+ [2]) (./code/subtraction.R)
+[3] (./code/multiplication.cpp [4]) (./code/multiplication.R)
+(./code/division.cpp [5]) (./code/division.R)) [6]
 \openout2 = `ch2.aux'.
 
  (./ch2.tex
-[6
-
-
-
-]
 Chapter 2.
-(./code/vec_sum.cpp [7]) (./code/vec_cumsum.cpp [8]) (./code/vec_mean.cpp))
-[9]
+(./code/sum.cpp [7
+
+
+
+]) (./code/cumsum.cpp [8]) (./code/ssq.cpp) (./code/sum.R
+[9])) [10]
 \openout2 = `ch3.aux'.
 
- (./ch3.tex [10
-
-
-
-]
+ (./ch3.tex
 Chapter 3.
-(./code/vec_sqrt.cpp) [11] (./code/vec_squared.cpp) [12] (./code/ssq.cpp)
-(./code/vec_pow.cpp [13]) (./code/vec_myfun.cpp [14])) [15]
+(./code/sqrt.cpp) [11
+
+
+
+] (./code/squared.cpp [12]) (./code/pow.cpp)
+(./code/myfun.cpp [13]) (./code/applying.R [14])) [15]
 \openout2 = `ch4.aux'.
 
  (./ch4.tex [16
@@ -206,27 +227,54 @@ Chapter 3.
 
 ]
 Chapter 4.
-) [17] (./master.aux (./ch1.aux) (./ch2.aux) (./ch3.aux) (./ch4.aux)) ) 
+(./code/sort.cpp
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1.
+ [17]) (./code/sort.R) (./code/countif.cpp [18])
+(./code/countif.R [19])) [20]
+\openout2 = `ch5.aux'.
+
+ (./ch5.tex
+Chapter 5.
+(./code/mean.cpp) (./code/median.cpp [21
+
+
+
+]) (./code/min.cpp [22])
+(./code/max.cpp [23]) (./code/sumstats.R [24])) [25]
+\openout2 = `ch6.aux'.
+
+ (./ch6.tex [26
+
+
+
+]
+Chapter 6.
+(./code/run_min.cpp [27]) (./code/run_max.cpp) (./code/run_mean.cpp [28]))
+[29] (./master.aux (./ch1.aux) (./ch2.aux) (./ch3.aux) (./ch4.aux) (./ch5.aux)
+(./ch6.aux)) ) 
 Here is how much of TeX's memory you used:
- 2324 strings out of 493488
- 32775 string characters out of 3141326
- 134857 words of memory out of 3000000
- 5609 multiletter control sequences out of 15000+200000
- 6165 words of font info for 22 fonts, out of 3000000 for 9000
+ 3298 strings out of 493488
+ 43646 string characters out of 3141326
+ 164341 words of memory out of 3000000
+ 6522 multiletter control sequences out of 15000+200000
+ 6778 words of font info for 24 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,5n,60p,472b,1529s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/lo
-cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/loc
-al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loca
-l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on master.pdf (17 pages, 116187 bytes).
+ 36i,5n,60p,472b,1580s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmib10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+l10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb>
+Output written on master.pdf (29 pages, 170689 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,18 @@
+\chapter{"Run" Functions in C++ and R}
+One of the great things about R is all the built-in functions (sum, sd, var, etc.) and the extensive list of packages if you are looking for a function or feature that is not included in base R. The TTR and zoo packages include several functions that run over a certain window such as runSD, runMin, runMax, runMean. For example, runMean calculates a simple moving average over n periods.
+
+\section{Running Min and Max}
+The run\_min and run\_max are useful for computing donchian channels for technical analysis.
+
+\lstset{language=C++}
+\lstinputlisting{code/run_min.cpp}
+
+\lstset{language=C++}
+\lstinputlisting{code/run_max.cpp}
+
+\section{Running Mean}
+The run\_mean function is useful for computing the simple moving average for technical analysis.
+
+\lstset{language=C++}
+\lstinputlisting{code/run_mean.cpp}
+

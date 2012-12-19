@@ -3,7 +3,8 @@
 #include <iostream>
 
 double ssq(const std::vector<double>& v1){
-        return std::inner_product(v1.begin(), v1.end(), v1.begin(), 0.0);
+	/* compute the sum of squares of a vector */
+	return std::inner_product(v1.begin(), v1.end(), v1.begin(), 0.0);
 }
 
 int main(){

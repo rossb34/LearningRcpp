@@ -1,19 +1,24 @@
-\chapter{Computing the Sum and Mean of Vectors in C++ and R}
+\chapter{Computing the Sum of Vectors in C++ and R}
 
 \section{Sum}
 Compute the sum of a vector.  The sum1 function uses a for loop and the sum2 function uses std::accumulate from the STL.
 
 \lstset{language=C++}
-\lstinputlisting{code/vec_sum.cpp}
+\lstinputlisting{code/sum.cpp}
 
 \section{Cumulative Sum}
 Compute the cumulative sum of a vector. The cumsum1 function uses a for loop whereas the cumsum2 function uses std::partial\_sum from the STL.
 
 \lstset{language=C++}
-\lstinputlisting{code/vec_cumsum.cpp}
+\lstinputlisting{code/cumsum.cpp}
 
-\section{Mean}
-Compute the mean of a vector. Note how I use the same sum2 function that was defined earlier by copy/pasting it into the file. In general, this is a bad thing to do, but I am doing this for simplicity and so each file can be run as a stand-alone program. The correct way would be to define the sum2 function in it's own .cpp file, then declare it in a header file, then include the header file.
+\section{Sum of Squares}
+Compute the sum of squares of a vector. This is done by taking the inner product of a vector with itself.
 
 \lstset{language=C++}
-\lstinputlisting{code/vec_mean.cpp}
+\lstinputlisting{code/ssq.cpp}
+
+\section{R Code}
+
+\lstset{language=R}
+\lstinputlisting{code/sum.R}
